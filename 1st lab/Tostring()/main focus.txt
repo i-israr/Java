@@ -1,0 +1,4 @@
+-> If we call simpley the object refrece of the class by sending some inputs in its constructor then in the output this will 
+show the HASHCODE with implicitly created in the mthod of tostring()..
+-> But if we override the implicitly created methode then it will help us to show the output of the fields which we have just 
+send insted of hashcode
