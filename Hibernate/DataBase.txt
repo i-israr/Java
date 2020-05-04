@@ -1,0 +1,11 @@
+CREATE DATABASE midpro;
+use midpro;
+
+CREATE TABLE book (
+  serialNo int(11)  NOT NULL AUTO_INCREMENT,
+  title varchar(45) DEFAULT NULL,
+  author varchar(45) DEFAULT NULL,
+  publisher varchar(45) DEFAULT NULL,
+  PRIMARY KEY (serialNo),
+  UNIQUE KEY serialNo(serialNo)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
